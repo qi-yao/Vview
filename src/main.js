@@ -5,6 +5,16 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+import Collapse from './components/collapse'
+Vue.use(Collapse)
+
+import IconFont from './components/icon-font'
+Vue.use(IconFont)
+import '@/assets/font/iconfont.css'
+
+import Pop from './components/pop'
+Vue.use(Pop)
+
 new Vue({
   router,
   store,
