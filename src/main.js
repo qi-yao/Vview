@@ -15,6 +15,9 @@ import '@/assets/font/iconfont.css'
 import Pop from './components/pop'
 Vue.use(Pop)
 
+import VvButton from "./components/button";
+Vue.use(VvButton);
+
 new Vue({
   router,
   store,
